@@ -297,8 +297,8 @@ Also, a listed repository should be deprecated if:
 1.) [Credit Card](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/03_ipy_notebooks/clv_prediction.ipynb) - Estimate the CLV of credit card customers.
 2.) [Survival Analysis](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Survival_Analysis.py) - Perform a survival analysis of customers.
 3.) [Next Transaction](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Customer_NextTransaction_Prediction.py) - Deep learning model to predict the transaction amount and days to next transaction.
-4.) [Credit Card Churn](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Customer_NextTransaction_Prediction.py) - Predicting credit card customer churn.
-5.) [Bank of England Minutes](https://github.com/sekhansen/mpc_minutes_demo/blob/master/information_retrieval.ipynb) - Textual analysis over bank minutes.
+4.) [Credit Card Churn](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Customer_NextTransaction_Prediction.py) - Predicting credit card customer churn and thier limiting value, estimation of the value.
+5.) [Bank of England Minutes](https://github.com/sekhansen/mpc_minutes_demo/blob/master/information_retrieval.ipynb) - Textual analysis over bank  in minutes.Want to know that in which bank transaction is more and less.
 6.) [CEO](https://github.com/kaumaron/Data_Science/tree/master/CEO_Compensation) - Analysis of CEO compensation. 
 
 <a name="bankfin-value"></a>
