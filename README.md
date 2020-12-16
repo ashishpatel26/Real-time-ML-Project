@@ -1,7 +1,7 @@
 # Machine Learning and Data Science Applications in Industry
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20list%20of%20Python%20Notebooks%20for%20business%20applications&url=https://github.com/firmai/industry-machine-learning&via=dereknow&hashtags=ML,AI,Python,business)
 
-Please add your tools and notebooks to this [Google Sheet](https://docs.google.com/spreadsheets/d/1pVdV3r4X3k5D1UtKbhMTmjU8mJTZSLAhJzycurgh_o4/edit?usp=sharing). 
+Please add ausm tools and notebooks to this [Google Sheet](https://docs.google.com/spreadsheets/d/1pVdV3r4X3k5D1UtKbhMTmjU8mJTZSLAhJzycurgh_o4/edit?usp=sharing). 
 
 <p align="center">
   <img src="https://github.com/firmai/industry-machine-learning/raw/master/assets/industry.png">
@@ -10,7 +10,8 @@ Please add your tools and notebooks to this [Google Sheet](https://docs.google.c
 
 A curated list of applied machine learning and data science notebooks and libraries accross different industries. The code in this repository is in Python (primarily using jupyter notebooks) unless otherwise stated. The catalogue is inspired by `awesome-machine-learning`.
 
-***Caution:*** This is a work in progress, please contribute, especially if you are a subject expert in any of the industries listed below. If you are a **[**analytical, computational, statistical, quantitive**]** researcher/analyst in field **X** or a field **X** **[**machine learning engineer, data scientist, modeler, programmer**]** then your contribution will be greatly appreciated.   
+***Caution:*** 
+This is a work in progress, please contribute, especially if you are a subject expert in any of the industries listed below. If you are a **[**analytical, computational, statistical, quantitive**]** researcher/analyst in field **X** or a field **X** **[**machine learning engineer, data scientist, modeler, programmer**]** then your contribution will be greatly appreciated.   
 
 
 If you want to contribute to this list (please do), send me a pull request or contact me [@dereknow](https://twitter.com/dereknow) or on [linkedin](https://www.linkedin.com/in/snowderek/).
@@ -19,7 +20,9 @@ Also, a listed repository should be deprecated if:
 * Repository's owner explicitly say that "this library is not maintained".
 * Not committed for long time (2~3 years).
 
+
 </br>
+
 
 **Help Needed:** If there is any contributors out there willing to help first populate and then maintain a Python analytics section **in any one of the following sub/industries,** please get in contact with me. Also contact me to add **additional industries**. 
 
@@ -41,11 +44,12 @@ Also, a listed repository should be deprecated if:
 ### Industry Applications
 <!-- MarkdownTOC depth=4 -->
 
-- [Accommodation & Food](#accommodation)
+### [Accommodation & Food](#accommodation)
     - [Food](#accommodation-food)
     - [Restaurant](#accommodation-rest)
     - [Accommodation](#accommodation-acc)
-- [Accounting](#accounting)
+    
+ ### [Accounting](#accounting)
     - [Machine Learning](#accounting-ml)
     - [Analytics](#accounting-analytics)
     - [Textual Analysis](#accounting-text)
@@ -53,10 +57,12 @@ Also, a listed repository should be deprecated if:
     - [Research and Articles](#accounting-ra)
     - [Websites](#accounting-web)
     - [Courses](#accounting-course)
-- [Agriculture](#agriculture)
+    
+### [Agriculture](#agriculture)
     - [Economics](#agriculture-econ)
     - [Development](#agriculture-dev)
-- [Banking & Insurance](#bankfin)
+    
+### [Banking & Insurance](#bankfin)
     - [Consumer Financial](#bankfin-cf)
     - [Management and Operations](#bankfin-mo)
     - [Valuation](#bankfin-value)
@@ -64,43 +70,52 @@ Also, a listed repository should be deprecated if:
     - [Insurance and Risk](#bankfin-ir)
     - [Physical](#bankfin-ph)
     - [Data](#bankfin-data)
-- [Biotechnological & Life Sciences](#biotech)
+    
+### [Biotechnological & Life Sciences](#biotech)
     - [General](#biotech-general)
     - [Sequencing](#biotech-seq)
     - [Chemoinformatics and drug discovery](#biotech-chem)
     - [Genomics](#biotech-gene)
     - [Life-sciences](#biotech-life)  
-- [Construction & Engineering](#construction)
+    
+### [Construction & Engineering](#construction)
     - [Construction](#construction-const)
     - [Engineering](#construction-eng)
     - [Material Science](#construction-mat)
-- [Economics](#economics)
+    
+###  [Economics](#economics)
     - [General](#economics-general)
     - [Machine Learning](#economics-ml)   
     - [Computational](#economics-computational)   
-- [Education & Research](#education)
+    
+###  [Education & Research](#education)
     - [Student](#education-student)
     - [School](#education-school)
-- [Emergency & Relief](#emergency)
+    
+###  [Emergency & Relief](#emergency)
     - [Preventative and Reactive](#emergency-prevent)
     - [Crime](#emergency-crime)
     - [Ambulance](#emergency-ambulance)
     - [Disaster Management](#emergency-disaster)
-- [Finance](#finance)
+    
+###  [Finance](#finance)
     - [Trading & Investment](#finance-trade)
     - [Data](#finance-data)
-- [Healthcare](#healthcare)
+    
+-***Healthcare](#healthcare)
     - [General](#healthcare-general)
 - [Justice, Law and Regulations](#legal)
     - [Tools](#legal-tools)
     - [Policy and Regulatory](#legal-pr)
     - [Judicial](#legal-judicial)
-- [Manufacturing](#manufacturing)
+    
+### [Manufacturing](#manufacturing)
     - [General](#manufacturing-general)
     - [Maintenance](#manufacturing-maintenance)
     - [Failure](#manufacturing-fail)
     - [Quality](#manufacturing-quality)
-- [Media & Publishing](#media)
+    
+### [Media & Publishing](#media)
     - [Marketing](#media-marketing)
 - [Miscellaneous](#miscellaneous)
     - [Art](#miscellaneous-art)
@@ -114,7 +129,8 @@ Also, a listed repository should be deprecated if:
     - [Disaster Management](#public-dis)
     - [Politics](#public-poli)
     - [Charities](#public-charity)
-- [Real Estate, Rental & Leasing](#realestate)
+    
+### [Real Estate, Rental & Leasing](#realestate)
     - [Real Estate](#realestate-real)
     - [Rental & Leasing](#realestate-rental)
 - [Utilities](#utilities)
@@ -126,6 +142,7 @@ Also, a listed repository should be deprecated if:
     - [Wholesale](#wholesale-whole)
     - [Retail](#wholesale-retail)
     
+    
 
 <!-- /MarkdownTOC -->
 
@@ -135,33 +152,34 @@ Also, a listed repository should be deprecated if:
 <a name="accommodation-food"></a>
 **Food**
 
-- [RobotChef](https://github.com/bschreck/robo-chef) - Refining recipes based on user reviews.
-- [Food Amenities](https://github.com/Ankushr785/Food-amenities-demand-prediction) - Predicting the demand for food amenities using neural networks 
-- [Recipe Cuisine and Rating](https://github.com/catherhuang/FP3-recipe) - Predict the rating and type of cuisine from a list of ingredients. 
-- [Food Classification](https://github.com/stratospark/food-101-keras) - Classification using Keras. 
-- [Image to Recipe](https://github.com/Murgio/Food-Recipe-CNN) - Translate an image to a recipe using deep learning. 
-- [Calorie Estimation](https://github.com/jubins/DeepLearning-Food-Image-Recognition-And-Calorie-Estimation) - Estimate calories from photos of food. 
-- [Fine Food Reviews](https://github.com/Architectshwet/Amazon-Fine-Food-Reviews) - Sentiment analysis on Amazon Fine Food Reviews. 
+1.) [RobotChef](https://github.com/bschreck/robo-chef) - Refining recipes based on user reviews.
+2.) [Food Amenities](https://github.com/Ankushr785/Food-amenities-demand-prediction) - Predicting the demand for food amenities using neural networks 
+3.) [Recipe Cuisine and Rating](https://github.com/catherhuang/FP3-recipe) - Predict the rating and type of cuisine from a list of ingredients. 
+4.) [Food Classification](https://github.com/stratospark/food-101-keras) - Classification using Keras. 
+5.) [Image to Recipe](https://github.com/Murgio/Food-Recipe-CNN) - Translate an image to a recipe using deep learning. 
+6.) [Calorie Estimation](https://github.com/jubins/DeepLearning-Food-Image-Recognition-And-Calorie-Estimation) - Estimate calories from photos of food. 
+7.) [Fine Food Reviews](https://github.com/Architectshwet/Amazon-Fine-Food-Reviews) - Sentiment analysis on Amazon Fine Food Reviews. 
 
 <a name="accommodation-rest"></a>
 **Restaurant** 
 
-- [Restaurant Violation](https://github.com/nd1/DC_RestaurantViolationForecasting) - Food inspection violation forecasting. 
-- [Restaurant Success](https://github.com/alifier/Restaurant_success_model) - Predict whether a restaurant is going to fail. 
-- [Predict Michelin](https://github.com/josephofiowa/dc-michelin-challenge/tree/master/submissions) - Predict the likelihood that restaurant is a Michelin restaurant. 
-- [Restaurant Inspection](https://github.com/gzsuyu/Data-Analysis-NYC-Restaurant-Inspection-Data) - An inspection analysis to see if cleanliness is related to rating.
-- [Sales](https://github.com/gzsuyu/Data-Analysis-NYC-Restaurant-Inspection-Data) - Restaurant sales forecasting with LTSM.
-- [Visitor Forecasting](https://github.com/anki1909/Recruit-Restaurant-Visitor-Forecasting) - Reservation and visitation number prediction. 
-- [Restaurant Profit](https://github.com/everAspiring/RegressionAnalysis) - Restaurant regression analysis. 
-- [Competition](https://github.com/klin90/missinglink) - Restaurant competitiveness analysis.
-- [Business Analysis](https://github.com/nvodoor/RBA) - Restaurant business analysis project.  
-- [Location Recommendation](https://github.com/sanatasy/Restaurant_Risk) - Restaurant location recommendation tool and analysis. 
-- [Closure, Rating and Recommendation](https://github.com/Lolonon/Restaurant-Analytical-Solution)  -  Three prediction tasks using Yelp data. 
-- [Anti-recommender](https://github.com/Myau5x/anti-recommender) - Find restaurants you don’t want to attend. 
-- [Menu Analysis](https://github.com/bzjin/menus) - Deeper analysis of restaurants through their menus. 
-- [Menu Recommendation](https://github.com/rphaneendra/Menu-Similarity) - NLP to recommend restaurants with similar menus. 
-- [Food Price](https://gist.github.com/analyticsindiamagazine/f9b2ba171a0eef9ad396ce6f1b83bbbc) - Predict food cost. 
-- [Automated Restaurant Report](https://github.com/firmai/interactive-corporate-report) - Automated machine learning company report.
+1.) [Restaurant Violation](https://github.com/nd1/DC_RestaurantViolationForecasting) - Food inspection violation forecasting. 
+2.) [Restaurant Success](https://github.com/alifier/Restaurant_success_model) - Predict whether a restaurant is going to fail. 
+3.) [Predict Michelin](https://github.com/josephofiowa/dc-michelin-challenge/tree/master/submissions) - Predict the likelihood that restaurant is a Michelin restaurant. 
+4.) [Restaurant Inspection](https://github.com/gzsuyu/Data-Analysis-NYC-Restaurant-Inspection-Data) - An inspection analysis to see if cleanliness is related to rating.
+5.) [Sales](https://github.com/gzsuyu/Data-Analysis-NYC-Restaurant-Inspection-Data) - Restaurant sales forecasting with LTSM.
+6.) [Visitor Forecasting](https://github.com/anki1909/Recruit-Restaurant-Visitor-Forecasting) - Reservation and visitation number prediction. 
+7.) [Restaurant Profit](https://github.com/everAspiring/RegressionAnalysis) - Restaurant regression analysis. 
+8.) [Competition](https://github.com/klin90/missinglink) - Restaurant competitiveness analysis.
+9.) [Business Analysis](https://github.com/nvodoor/RBA) - Restaurant business analysis project.  
+10.) [Location Recommendation](https://github.com/sanatasy/Restaurant_Risk) - Restaurant location recommendation tool and analysis. 
+11.) [Closure, Rating and Recommendation](https://github.com/Lolonon/Restaurant-Analytical-Solution)  -  Three prediction tasks using Yelp data. 
+12.) [Anti-recommender](https://github.com/Myau5x/anti-recommender) - Find restaurants you don’t want to attend. 
+13.) [Menu Analysis](https://github.com/bzjin/menus) - Deeper analysis of restaurants through their menus. 
+14.) [Menu Recommendation](https://github.com/rphaneendra/Menu-Similarity) - NLP to recommend restaurants with similar menus. 
+15.) [Food Price](https://gist.github.com/analyticsindiamagazine/f9b2ba171a0eef9ad396ce6f1b83bbbc) - Predict food cost. 
+16.) [Automated Restaurant Report](https://github.com/firmai/interactive-corporate-report) - Automated machine learning company report.
+
 
 <a name="accommodation-acc"></a>
 - [Peer-to-Peer Housing](https://github.com/rochiecuevas/shared_accommodations) - The effect of peer to peer  rentals on housing. 
@@ -183,54 +201,54 @@ Also, a listed repository should be deprecated if:
 ## Accounting
 
 <a name="accounting-ml"></a>
-#### Machine Learning
-* [Chart of Account Prediction](https://github.com/agdgovsg/ml-coa-charging ) - Using labeled data to suggest the account name for every transaction.
-* [Accounting Anomalies](https://github.com/GitiHubi/deepAI/blob/master/GTC_2018_Lab-solutions.ipynb) -  Using deep-learning frameworks to identify accounting anomalies.
-* [Financial Statement Anomalies](https://github.com/rameshcalamur/fin-stmt-anom) - Detecting anomalies before filing, using R.
-* [Useful Life Prediction (FirmAI)](http://www.firmai.org/documents/Aged%20Debtors/) - Predict the useful life of assets using sensor observations and feature engineering.
-* [AI Applied to XBRL](https://github.com/Niels-Peter/XBRL-AI) - Standardized representation of XBRL into AI and Machine learning.
+***Machine Learning
+1.) [Chart of Account Prediction](https://github.com/agdgovsg/ml-coa-charging ) - Using labeled data to suggest the account name for every transaction.
+2.) [Accounting Anomalies](https://github.com/GitiHubi/deepAI/blob/master/GTC_2018_Lab-solutions.ipynb) -  Using deep-learning frameworks to identify accounting anomalies.
+3.) [Financial Statement Anomalies](https://github.com/rameshcalamur/fin-stmt-anom) - Detecting anomalies before filing, using R.
+4.) [Useful Life Prediction (FirmAI)](http://www.firmai.org/documents/Aged%20Debtors/) - Predict the useful life of assets using sensor observations and feature engineering.
+5.) [AI Applied to XBRL](https://github.com/Niels-Peter/XBRL-AI) - Standardized representation of XBRL into AI and Machine learning.
  
 <a name="accounting-analytics"></a>
 #### Analytics
 
-* [Forensic Accounting](https://github.com/mschermann/forensic_accounting) - Collection of case studies on forensic accounting using data analysis.  On the lookout for more data to practise forensic accounting, *please get in [touch](https://github.com/mschermann/)* 
-* [General Ledger (FirmAI)](http://www.firmai.org/documents/General%20Ledger/) - Data processing over a general ledger as exported through an accounting system.
-* [Bullet Graph (FirmAI)](http://www.firmai.org/documents/Bullet-Graph-Article/) - Bullet graph visualisation helpful for tracking sales, commission and other performance.
-* [Aged Debtors (FirmAI)](http://www.firmai.org/documents/Aged%20Debtors/) - Example analysis to invetigate aged debtors.
-* [Automated FS XBRL](https://github.com/CharlesHoffmanCPA/charleshoffmanCPA.github.io) - XML Language, however, possibly port analysis into Python.
+1.) [Forensic Accounting](https://github.com/mschermann/forensic_accounting) - Collection of case studies on forensic accounting using data analysis.  On the lookout for more data to practise forensic accounting, *please get in [touch](https://github.com/mschermann/)* 
+2.) [General Ledger (FirmAI)](http://www.firmai.org/documents/General%20Ledger/) - Data processing over a general ledger as exported through an accounting system.
+3.) [Bullet Graph (FirmAI)](http://www.firmai.org/documents/Bullet-Graph-Article/) - Bullet graph visualisation helpful for tracking sales, commission and other performance.
+4.) [Aged Debtors (FirmAI)](http://www.firmai.org/documents/Aged%20Debtors/) - Example analysis to invetigate aged debtors.
+5.) [Automated FS XBRL](https://github.com/CharlesHoffmanCPA/charleshoffmanCPA.github.io) - XML Language, however, possibly port analysis into Python.
 
 <a name="accounting-text"></a>
 #### Textual Analysis
 
-* [Financial Sentiment Analysis](https://github.com/EricHe98/Financial-Statements-Text-Analysis) - Sentiment, distance and proportion analysis for trading signals.
-* [Extensive NLP](https://github.com/TiesdeKok/Python_NLP_Tutorial/blob/master/NLP_Notebook.ipynb) - Comprehensive NLP techniques for accounting research.
+1.) [Financial Sentiment Analysis](https://github.com/EricHe98/Financial-Statements-Text-Analysis) - Sentiment, distance and proportion analysis for trading signals.
+2.) [Extensive NLP](https://github.com/TiesdeKok/Python_NLP_Tutorial/blob/master/NLP_Notebook.ipynb) - Comprehensive NLP techniques for accounting research.
 
 <a name="accounting-data"></a>
 #### Data, Parsing and APIs
 
-* [EDGAR](https://github.com/TiesdeKok/UW_Python_Camp/blob/master/Materials/Session_5/EDGAR_walkthrough.ipynb) - A walk-through in how to obtain EDGAR data. 
-* [IRS](http://social-metrics.org/sox/) - Acessing and parsing IRS filings.
-* [Financial Corporate](http://raw.rutgers.edu/Corporate%20Financial%20Data.html) - Rutgers corporate financial datasets.
-* [Non-financial Corporate](http://raw.rutgers.edu/Non-Financial%20Corporate%20Data.html) - Rutgers non-financial corporate dataset.
-* [PDF Parsing](https://github.com/danshorstein/python4cpas/blob/master/03_parsing_pdf_files/AR%20Aging%20-%20working.ipynb) - Extracting useful data from PDF documents. 
-* [PDF Tabel to Excel](https://github.com/danshorstein/ficpa_article) - How to output an excel file from a PDF.
+1.) [EDGAR](https://github.com/TiesdeKok/UW_Python_Camp/blob/master/Materials/Session_5/EDGAR_walkthrough.ipynb) - A walk-through in how to obtain EDGAR data. 
+2.) [IRS](http://social-metrics.org/sox/) - Acessing and parsing IRS filings.
+3.) [Financial Corporate](http://raw.rutgers.edu/Corporate%20Financial%20Data.html) - Rutgers corporate financial datasets.
+4.) [Non-financial Corporate](http://raw.rutgers.edu/Non-Financial%20Corporate%20Data.html) - Rutgers non-financial corporate dataset.
+5.) [PDF Parsing](https://github.com/danshorstein/python4cpas/blob/master/03_parsing_pdf_files/AR%20Aging%20-%20working.ipynb) - Extracting useful data from PDF documents. 
+6.) [PDF Tabel to Excel](https://github.com/danshorstein/ficpa_article) - How to output an excel file from a PDF.
 
 <a name="accounting-ra"></a>
 #### Research And Articles
 
-* [Understanding Accounting Analytics](http://social-metrics.org/accountinganalytics/) - An article that tackles the importance of accounting analytics.
-* [VLFeat](http://www.vlfeat.org/) - VLFeat is an open and portable library of computer vision algorithms, which has Matlab toolbox.
+1.) [Understanding Accounting Analytics](http://social-metrics.org/accountinganalytics/) - An article that tackles the importance of accounting analytics.
+2.) [VLFeat](http://www.vlfeat.org/) - VLFeat is an open and portable library of computer vision algorithms, which has Matlab toolbox.
 
 <a name="accounting-web"></a>
 #### Websites
 
-* [Rutgers Raw](http://raw.rutgers.edu/) - Good digital accounting research from Rutgers.
+1.) [Rutgers Raw](http://raw.rutgers.edu/) - Good digital accounting research from Rutgers.
 
 <a name="accounting-course"></a>
 #### Courses
 
-* [Computer Augmented Accounting](https://www.youtube.com/playlist?list=PLauepKFT6DK8TaNaq_SqZW4LIDJhCkZe2) - A video series from Rutgers University looking at the use of computation to improve accounting.
-* [Accounting in a Digital Era](https://www.youtube.com/playlist?list=PLauepKFT6DK8_Xun584UQPPsg1grYkWw0) - Another series by Rutgers investigating the effects the digital age will have on accounting.
+1.) [Computer Augmented Accounting](https://www.youtube.com/playlist?list=PLauepKFT6DK8TaNaq_SqZW4LIDJhCkZe2) - A video series from Rutgers University looking at the use of computation to improve accounting.
+2.)  [Accounting in a Digital Era](https://www.youtube.com/playlist?list=PLauepKFT6DK8_Xun584UQPPsg1grYkWw0) - Another series by Rutgers investigating the effects the digital age will have on accounting.
 
 
 <a name="agriculture"></a>
@@ -239,21 +257,21 @@ Also, a listed repository should be deprecated if:
 <a name="agriculture-econ"></a>
 **Economics**
 
-- [Prices](https://github.com/deadskull7/Agricultural-Price-Prediction-and-Visualization-on-Android-App) - Agricultural price prediction. 
-- [Prices 2](https://github.com/Vipul115/Statistical-Time-Series-Analysis-on-Agricultural-Commodity-Prices)  - Agricultural price prediction.  
-- [Yield](https://github.com/DFS-UCU/UkrainianAgriculture) - Agricultural analysis looking at crop yields in Ukraine. 
-- [Recovery](https://github.com/vicelab/slaer) - Strategic land use for agriculture and ecosystem recovery
-- [MPR](https://github.com/gumballhead/mpr) - Mandatory Price Reporting data from the USDA's Agricultural Marketing Service.
+1.) [Prices](https://github.com/deadskull7/Agricultural-Price-Prediction-and-Visualization-on-Android-App) - Agricultural price prediction. 
+2.) [Prices 2](https://github.com/Vipul115/Statistical-Time-Series-Analysis-on-Agricultural-Commodity-Prices)  - Agricultural price prediction.  
+3.) [Yield](https://github.com/DFS-UCU/UkrainianAgriculture) - Agricultural analysis looking at crop yields in Ukraine. 
+4.) [Recovery](https://github.com/vicelab/slaer) - Strategic land use for agriculture and ecosystem recovery
+5.) [MPR](https://github.com/gumballhead/mpr) - Mandatory Price Reporting data from the USDA's Agricultural Marketing Service.
 
 <a name="agriculture-dev"></a>
 **Development**
 
-- [Segmentation](https://github.com/chrieke/InstanceSegmentation_Sentinel2) - Agricultural field parcel segmentation using satellite images. 
-- [Water Table](https://github.com/jfzhang95/LSTM-water-table-depth-prediction) - Predicting water table depth in agricultural areas. 
-- [Assistant](https://github.com/surajmall/Agriculture-Assistant/tree/master/models) - Notebooks from agricultural assistant. 
-- [Eco-evolutionary](https://github.com/tecoevo/agriculture) - Eco-evolutionary dynamics. 
-- [Diseases](https://github.com/gauravmunjal13/Agriculture) - Identification of crop diseases and pests using Deep Learning framework from the images.
-- [Irrigation and Pest Prediction](https://github.com/divyam3897/agriculture) - Analyse irrigation and predict pest likelihood. 
+1.) [Segmentation](https://github.com/chrieke/InstanceSegmentation_Sentinel2) - Agricultural field parcel segmentation using satellite images. 
+2.) [Water Table](https://github.com/jfzhang95/LSTM-water-table-depth-prediction) - Predicting water table depth in agricultural areas. 
+3.) [Assistant](https://github.com/surajmall/Agriculture-Assistant/tree/master/models) - Notebooks from agricultural assistant. 
+4.) [Eco-evolutionary](https://github.com/tecoevo/agriculture) - Eco-evolutionary dynamics. 
+5.) [Diseases](https://github.com/gauravmunjal13/Agriculture) - Identification of crop diseases and pests using Deep Learning framework from the images.
+6.) [Irrigation and Pest Prediction](https://github.com/divyam3897/agriculture) - Analyse irrigation and predict pest likelihood. 
 
 
 
@@ -263,70 +281,72 @@ Also, a listed repository should be deprecated if:
 <a name="bankfin-cv"></a>
 #### Consumer Finance
 
-- [Loan Acceptance](https://github.com/Paresh3189/Bankruptcy-Prediction-Growth-Modelling) - Classification and time-series analysis for loan acceptance.
-- [Predict Loan Repayment](https://github.com/Featuretools/predict-loan-repayment) - Predict whether a loan will be repaid using automated feature engineering.
-- [Loan Eligibility Ranking](https://github.com/RealRadOne/Gyani-The-Loan-Eligibility-Predictor) - System to help the banks check if a customer is eligible for a given loan.
-- [Home Credit Default (FirmAI)](http://www.firmai.org/documents/Aggregator/#each-time-step-takes-30-seconds) - Predict home credit default.
-- [Mortgage Analytics](https://github.com/abuchowdhury/Mortgage_Bank_Loan_Analtsics/blob/master/Mortgage%20Bank%20Loan%20Analytics.ipynb) - Extensive mortgage loan analytics.
-- [Credit Approval](https://github.com/IBM-Cloud-DevFest-2018/Data-Science-for-Banking/blob/master/02-CreditCardApprovalModel/CreditCardApprovalModel.ipynb) - A system for credit card approval.
-- [Loan Risk](https://github.com/Brett777/Predict-Risk) - Predictive model to help to reduce charge-offs and losses of loans.
-- [Amortisation Schedule (FirmAI)](http://www.firmai.org/documents/Amortization%20Schedule/) - Simple amortisation schedule in python for personal use.
+1.) [Loan Acceptance](https://github.com/Paresh3189/Bankruptcy-Prediction-Growth-Modelling) - Classification and time-series analysis for loan acceptance.
+2.) [Predict Loan Repayment](https://github.com/Featuretools/predict-loan-repayment) - Predict whether a loan will be repaid using automated feature engineering.
+3.) [Loan Eligibility Ranking](https://github.com/RealRadOne/Gyani-The-Loan-Eligibility-Predictor) - System to help the banks check if a customer is eligible for a given loan.
+4.) [Home Credit Default (FirmAI)](http://www.firmai.org/documents/Aggregator/#each-time-step-takes-30-seconds) - Predict home credit default.
+5.) [Mortgage Analytics](https://github.com/abuchowdhury/Mortgage_Bank_Loan_Analtsics/blob/master/Mortgage%20Bank%20Loan%20Analytics.ipynb) - Extensive mortgage loan analytics.
+6.) [Credit Approval](https://github.com/IBM-Cloud-DevFest-2018/Data-Science-for-Banking/blob/master/02-CreditCardApprovalModel/CreditCardApprovalModel.ipynb) - A system for credit card approval.
+7.) [Loan Risk](https://github.com/Brett777/Predict-Risk) - Predictive model to help to reduce charge-offs and losses of loans.
+8.) [Amortisation Schedule (FirmAI)](http://www.firmai.org/documents/Amortization%20Schedule/) - Simple amortisation schedule in python for personal use.
 
 
 <a name="bankfin-mo"></a>
 #### Management and Operation
 
-- [Credit Card](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/03_ipy_notebooks/clv_prediction.ipynb) - Estimate the CLV of credit card customers.
-- [Survival Analysis](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Survival_Analysis.py) - Perform a survival analysis of customers.
-- [Next Transaction](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Customer_NextTransaction_Prediction.py) - Deep learning model to predict the transaction amount and days to next transaction.
-- [Credit Card Churn](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Customer_NextTransaction_Prediction.py) - Predicting credit card customer churn.
-- [Bank of England Minutes](https://github.com/sekhansen/mpc_minutes_demo/blob/master/information_retrieval.ipynb) - Textual analysis over bank minutes.
-- [CEO](https://github.com/kaumaron/Data_Science/tree/master/CEO_Compensation) - Analysis of CEO compensation. 
+1.) [Credit Card](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/03_ipy_notebooks/clv_prediction.ipynb) - Estimate the CLV of credit card customers.
+2.) [Survival Analysis](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Survival_Analysis.py) - Perform a survival analysis of customers.
+3.) [Next Transaction](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Customer_NextTransaction_Prediction.py) - Deep learning model to predict the transaction amount and days to next transaction.
+4.) [Credit Card Churn](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/01_code/01_02_clv_survival/Customer_NextTransaction_Prediction.py) - Predicting credit card customer churn and thier limiting value, estimation of the value.
+5.) [Bank of England Minutes](https://github.com/sekhansen/mpc_minutes_demo/blob/master/information_retrieval.ipynb) - Textual analysis over bank  in minutes.Want to know that in which bank transaction is more and less.
+6.) [CEO](https://github.com/kaumaron/Data_Science/tree/master/CEO_Compensation) - Analysis of CEO compensation. 
 
 <a name="bankfin-value"></a>
 #### Valuation
 
-- [Zillow Prediction](https://github.com/eswar3/Zillow-prediction-models) - Zillow valuation prediction as performed on Kaggle.
-- [Real Estate](https://github.com/denadai2/real-estate-neighborhood-prediction) - Predicting real estate prices from the urban environment.
-- [Used Car](https://nbviewer.jupyter.org/github/albahnsen/PracticalMachineLearningClass/blob/master/exercises/P1-UsedVehiclePricePrediction.ipynb) - Used vehicle price prediction.
+1.) [Zillow Prediction](https://github.com/eswar3/Zillow-prediction-models) - Zillow valuation prediction as performed on Kaggle.
+2.) [Real Estate](https://github.com/denadai2/real-estate-neighborhood-prediction) - Predicting real estate prices from the urban environment.
+3.)  [Used Car](https://nbviewer.jupyter.org/github/albahnsen/PracticalMachineLearningClass/blob/master/exercises/P1-UsedVehiclePricePrediction.ipynb) - Used vehicle price prediction.
 
 
 <a name="bankfin-fraud"></a>
 #### Fraud
 
-- [XGBoost](https://github.com/KSpiliop/Fraud_Detection) - Fraud Detection by tuning XGBoost hyper-parameters with Simulated Annealing
-- [Fraud Detection Loan in R](https://github.com/longtng/frauddetectionproject/blob/master/A%20Consideration%20Point%20of%20%20Fraud%20Detection%20in%20Bank%20Loans%20Project%20Code.ipynb) - Fraud detection in bank loans.
-- [AML Finance Due Diligence](https://github.com/Michaels72/AML-Due-Diligence/blob/master/AML_Finance_DD.ipynb) - Search news articles to do finance AML DD.
-- [Credit Card Fraud](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/03_ipy_notebooks/fraud_detection.ipynb) - Detecting credit card fraud.
+1.) [XGBoost](https://github.com/KSpiliop/Fraud_Detection) - Fraud Detection by tuning XGBoost hyper-parameters with Simulated Annealing
+2.) [Fraud Detection Loan in R](https://github.com/longtng/frauddetectionproject/blob/master/A%20Consideration%20Point%20of%20%20Fraud%20Detection%20in%20Bank%20Loans%20Project%20Code.ipynb) - Fraud detection in bank loans.
+3.) [AML Finance Due Diligence](https://github.com/Michaels72/AML-Due-Diligence/blob/master/AML_Finance_DD.ipynb) - Search news articles to do finance AML DD.
+
+4.)  [Credit Card Fraud](https://github.com/am-aditya/Artificial-Intelligence-for-Banking/blob/master/03_ipy_notebooks/fraud_detection.ipynb) - Detecting credit card fraud.
 
 <a name="bankfin-ir"></a>
 #### Insurance and Risk
 
 
-- [Car Damage Detective](https://github.com/neokt/car-damage-detective) - Assessing car damage with convolution neural networks for a personal auto *claims.*
-- [Medical Insurance Claims](https://github.com/roshank1605A04/Insurance-Claim-Prediction/blob/master/InsuranceClaim.ipynb) - Predicting medical insurance claims. 
-- Anomaly 
-- [Claim Denial](https://github.com/slegroux/claimdenial/blob/master/Claim%20Denial.ipynb) - Predicting insurance claim denial
-- [Claim Fraud](https://github.com/rshea3/alpha-insurance) -  Predictive models to determine which automobile claims are fraudulent. 
-- [Claims Anomalies](https://github.com/dchannah/fraudhacker) - Anomaly detection system for medical insurance claims data.
-- [Actuarial Sciences (R)](https://github.com/JSchelldorfer/ActuarialDataScience) - A range of actuarial tools in R.
-- [Bank Failure](https://github.com/Shomona/Bank-Failure-Prediction/blob/master/Bank.ipynb) - Predicting bank failure.
-- [Risk Management](https://github.com/andrey-lukyanov/Risk-Management) - Finance risk engagement course resources.
-- [VaR GaN](https://github.com/hamaadshah/market_risk_gan_keras) - Estimate Value-at-Risk for market risk management using Keras and TensorFlow.
-- [Compliance](https://github.com/SaiBiswas/Bank-Grievance-Compliance-Management/blob/master/The%20Main%20File.ipynb) - Bank Grievance Compliance Management.  
-- [Stress Testing](https://github.com/apbecker/Systemic_Risk/blob/master/Generalized.ipynb) - ECB stress testing.
-- [Stress Testing Techniques](https://github.com/kaitai/stress-testing-with-jupyter/blob/master/Playing%20with%20financial%20data%20and%20Python%203.ipynb) - A notebook with various stress testing exercises. 
-- [Reverse Stress Test](https://github.com/arcadynovosyolov/reverse_stress_testing/blob/master/reverse_stress_testing.ipynb) - Given a portfolio and a predefined loss size, determine which factors stress (scenarios) would lead to that loss
-- [BoE stress test](https://github.com/VankatPetr/BoE_stress_test/blob/master/BoE_stress_test_5Y_cummulative_imparment_charge.ipynb)- Stress test results and plotting. 
-- [Recovery](https://github.com/hkacmaz/Bankin_Recovery/blob/master/Banking_Recovery.ipynb) - Recovery of money owed. 
-- [Quality Control](https://github.com/mick-zhang/Quality-Control-for-Banking-using-LDA-and-LDA-Mallet) - Quality control for banking using LDA
+1.) [Car Damage Detective](https://github.com/neokt/car-damage-detective) - Assessing car damage with convolution neural networks for a personal auto *claims.*
+2.) [Medical Insurance Claims](https://github.com/roshank1605A04/Insurance-Claim-Prediction/blob/master/InsuranceClaim.ipynb) - Predicting medical insurance claims. 
+### Anomaly 
+1.) [Claim Denial](https://github.com/slegroux/claimdenial/blob/master/Claim%20Denial.ipynb) - Predicting insurance claim denial
+2.) [Claim Fraud](https://github.com/rshea3/alpha-insurance) -  Predictive models to determine which automobile claims are fraudulent. 
+3.) [Claims Anomalies](https://github.com/dchannah/fraudhacker) - Anomaly detection system for medical insurance claims data.
+4.) [Actuarial Sciences (R)](https://github.com/JSchelldorfer/ActuarialDataScience) - A range of actuarial tools in R.
+5.) [Bank Failure](https://github.com/Shomona/Bank-Failure-Prediction/blob/master/Bank.ipynb) - Predicting bank failure.
+6.) [Risk Management](https://github.com/andrey-lukyanov/Risk-Management) - Finance risk engagement course resources.
+7.) [VaR GaN](https://github.com/hamaadshah/market_risk_gan_keras) - Estimate Value-at-Risk for market risk management using Keras and TensorFlow.
+8.) [Compliance](https://github.com/SaiBiswas/Bank-Grievance-Compliance-Management/blob/master/The%20Main%20File.ipynb) - Bank Grievance Compliance Management.  
+9.) [Stress Testing](https://github.com/apbecker/Systemic_Risk/blob/master/Generalized.ipynb) - ECB stress testing.
+10.) [Stress Testing Techniques](https://github.com/kaitai/stress-testing-with-jupyter/blob/master/Playing%20with%20financial%20data%20and%20Python%203.ipynb) - A notebook with various stress testing exercises. 
+
+11.) [Reverse Stress Test](https://github.com/arcadynovosyolov/reverse_stress_testing/blob/master/reverse_stress_testing.ipynb) - Given a portfolio and a predefined loss size, determine which factors stress (scenarios) would lead to that loss
+12.) [BoE stress test](https://github.com/VankatPetr/BoE_stress_test/blob/master/BoE_stress_test_5Y_cummulative_imparment_charge.ipynb)- Stress test results and plotting. 
+13.)  [Recovery](https://github.com/hkacmaz/Bankin_Recovery/blob/master/Banking_Recovery.ipynb) - Recovery of money owed. 
+14.)  [Quality Control](https://github.com/mick-zhang/Quality-Control-for-Banking-using-LDA-and-LDA-Mallet) - Quality control for banking using LDA
 
 
 <a name="bankfin-ph"></a>
 #### Physical
 
-* [Bank Note Fraud Detection](https://github.com/apoorv-goel/Bank-Note-Authentication-Using-DNN-Tensorflow-Classifier-and-RandomForest) - Bank Note Authentication Using DNN Tensorflow Classifier and RandomForest.
-* [ATM Surveillance](https://github.com/ShreyaGupta08/InfyHack) - ATM Surveillance in banks use case.
+** [Bank Note Fraud Detection](https://github.com/apoorv-goel/Bank-Note-Authentication-Using-DNN-Tensorflow-Classifier-and-RandomForest) - Bank Note Authentication Using DNN Tensorflow Classifier and RandomForest.
+** [ATM Surveillance](https://github.com/ShreyaGupta08/InfyHack) - ATM Surveillance in banks use case.
 
 
 <a name="biotech"></a>
@@ -335,59 +355,59 @@ Also, a listed repository should be deprecated if:
 <a name="biotech-general"></a>
 **General**
 
-- [Programming](https://github.com/burkesquires/python_biologist) - Python Programming for Biologists
-- [Introduction DL](https://colab.research.google.com/drive/17E4h5aAOioh5DiTo7MZg4hpL6Z_0FyWr) - A Primer on Deep Learning in Genomics
-- [Pose](https://github.com/talmo/leap) - Estimating animal poses using DL.
-- [Privacy](https://github.com/greenelab/SPRINT_gan) - Privacy preserving NNs for clinical data sharing. 
-- [Population Genetics](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004845) - DL for population genetic inference. 
-- [Bioinformatics Course](https://github.com/ricket-sjtu/bioinformatics) - Course materials for Computational *Biology*and Bioinformatics
-- [Applied Stats](https://github.com/waldronlab/AppStatBio) - Applied Statistics for High-Throughput *Biology*
-- [Scripts](https://github.com/mingzhangyang/Mybiotools) - Python scripts for biologists. 
-- [Molecular NN](https://github.com/mitmedialab/Evolutron) - A mini-framework to build and train neural networks for molecular *biology*.
-- [Systems Biology Simulations](https://github.com/hallba/WritingSimulators) - Systems *biology* practical on writing simulators with F# and Z3
-- [Cell Movement](https://github.com/jrieke/lstm-biology) - LSTM to predict biological cell movement.
-- [Deepchem](https://github.com/deepchem/deepchem) - Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology
+1.) [Programming](https://github.com/burkesquires/python_biologist) - Python Programming for Biologists
+2.) [Introduction DL](https://colab.research.google.com/drive/17E4h5aAOioh5DiTo7MZg4hpL6Z_0FyWr) - A Primer on Deep Learning in Genomics
+3.) [Pose](https://github.com/talmo/leap) - Estimating animal poses using DL.
+4.) [Privacy](https://github.com/greenelab/SPRINT_gan) - Privacy preserving NNs for clinical data sharing. 
+5.)  [Population Genetics](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004845) - DL for population genetic inference. 
+6.)  [Bioinformatics Course](https://github.com/ricket-sjtu/bioinformatics) - Course materials for Computational *Biology*and Bioinformatics
+7.)  [Applied Stats](https://github.com/waldronlab/AppStatBio) - Applied Statistics for High-Throughput *Biology*
+8.)  [Scripts](https://github.com/mingzhangyang/Mybiotools) - Python scripts for biologists. 
+9.) [Molecular NN](https://github.com/mitmedialab/Evolutron) - A mini-framework to build and train neural networks for molecular *biology*.
+10.) [Systems Biology Simulations](https://github.com/hallba/WritingSimulators) - Systems *biology* practical on writing simulators with F# and Z3
+11.)[Cell Movement](https://github.com/jrieke/lstm-biology) - LSTM to predict biological cell movement.
+12.) [Deepchem](https://github.com/deepchem/deepchem) - Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology
 
 <a name="biotech-seq"></a>
 **Sequencing** 
 
-- [DNA, RNA and Protein Sequencing](https://github.com/ehsanasgari/Deep-Proteomics) - Anew representation for biological sequences using DL.
-- [CNN Sequencing](https://github.com/budach/pysster) - A toolbox for learning motifs from DNA/RNA sequence data using convolutional neural networks
-- [NLP Sequencing](https://github.com/hussius/deeplearning-biology) - Language transfer learning model for genomics
+1.) [DNA, RNA and Protein Sequencing](https://github.com/ehsanasgari/Deep-Proteomics) - Anew representation for biological sequences using DL.
+2.) [CNN Sequencing](https://github.com/budach/pysster) - A toolbox for learning motifs from DNA/RNA sequence data using convolutional neural networks
+3.)  [NLP Sequencing](https://github.com/hussius/deeplearning-biology) - Language transfer learning model for genomics
 
 <a name="biotech-chem"></a>
 **Chemoinformatics and drug discovery**
 
-- [Novel Molecules](https://github.com/HIPS/neural-fingerprint) - A convolutional net that can learn features.
-- [Automating Chemical Design](https://github.com/aspuru-guzik-group/chemical_vae) - Generate new molecules for efficient exploration.
-- [GAN drug Discovery](https://github.com/gablg1/ORGAN) - A method that combines generative models with reinforcement learning.
-- [RL](https://github.com/MarcusOlivecrona/REINVENT) - generating compounds predicted to be active against a biological target.
-- [One-shot learning](https://github.com/deepchem/deepchem) - Python library that aims to make the use of machine-learning in drug discovery straightforward and convenient.
+1.) [Novel Molecules](https://github.com/HIPS/neural-fingerprint) - A convolutional net that can learn features.
+2.) [Automating Chemical Design](https://github.com/aspuru-guzik-group/chemical_vae) - Generate new molecules for efficient exploration.
+3.)  [GAN drug Discovery](https://github.com/gablg1/ORGAN) - A method that combines generative models with reinforcement learning.
+4.)  [RL](https://github.com/MarcusOlivecrona/REINVENT) - generating compounds predicted to be active against a biological target.
+5.)  [One-shot learning](https://github.com/deepchem/deepchem) - Python library that aims to make the use of machine-learning in drug discovery straightforward and convenient.
 
 <a name="biotech-gene"></a>
 **Genomics**
 
-- [Jupyter Genomics](https://github.com/ucsd-ccbb/jupyter-genomics) -  Collection of computation biology and bioinformatics notebooks. 
-- [Variant calling](https://github.com/google/deepvariant) - Correctly identify variations from the reference genome in an individual's DNA.
-- [Gene Expression Graphs](https://github.com/mila-iqia/gene-graph-conv) - Using convolutions on an image. 
-- [Autoencoding Expression](https://github.com/greenelab/adage) - Extracting relevant patterns from large sets of gene expression data
-- [Gene Expression Inference](https://github.com/uci-cbcl/D-GEX) - Predict the expression of specified target genes from a panel of about 1,000 pre-selected “landmark genes”. 
-- [Plant Genomics](https://github.com/widdowquinn/Teaching-EMBL-Plant-Path-Genomics) - Presentation and example material for *Plant* and Pathogen Genomics
+1.) [Jupyter Genomics](https://github.com/ucsd-ccbb/jupyter-genomics) -  Collection of computation biology and bioinformatics notebooks. 
+2.) [Variant calling](https://github.com/google/deepvariant) - Correctly identify variations from the reference genome in an individual's DNA.
+3.) [Gene Expression Graphs](https://github.com/mila-iqia/gene-graph-conv) - Using convolutions on an image. 
+4.) [Autoencoding Expression](https://github.com/greenelab/adage) - Extracting relevant patterns from large sets of gene expression data
+5.) [Gene Expression Inference](https://github.com/uci-cbcl/D-GEX) - Predict the expression of specified target genes from a panel of about 1,000 pre-selected “landmark genes”. 
+6.) [Plant Genomics](https://github.com/widdowquinn/Teaching-EMBL-Plant-Path-Genomics) - Presentation and example material for *Plant* and Pathogen Genomics
 
 <a name="biotech-life"></a>
 **Life-sciences**
 
-- [Plants Disease](https://github.com/viritaromero/Plant-diseases-classifier) - App that detects diseases in *plants* using a deep learning model.
-- [Leaf Identification](https://github.com/AayushG159/Plant-Leaf-Identification) - Identification of *plants* through *plant* leaves on the basis of their shape, color and texture.
-- [Crop Analysis](https://github.com/openalea/eartrack) - An imaging library to detect and track future position of ears on maize *plants*
-- [Seedlings](https://github.com/mfsatya/PlantSeedlings-Classification) - *Plant* Seedlings Classification from kaggle competition
-- [Plant Stress](http://An ontology containing plant stresses; biotic and abiotic.) -  An ontology containing *plant* stresses; biotic and abiotic.
-- [Animal Hierarchy](https://github.com/sacul-git/hierarpy) - Package for calculating *animal* dominance hierarchies.
-- [Animal Identification](https://github.com/A7med01/Deep-learning-for-Animal-Identification) - Deep learning for animal identification. 
-- [Species](https://github.com/NomaanAhmed/BigData_AnimalSpeciesAnalysis) - Big Data analysis of different species of *animals*
-- [Animal Vocalisations](https://github.com/timsainb/AVGN) - A generative network for animal vocalizations
-- [Evolutionary](https://github.com/hardmaru/estool) - Evolution Strategies Tool
-- [Glaciers](https://github.com/OGGM/oggm-edu) - Educational material about glaciers.
+1.) [Plants Disease](https://github.com/viritaromero/Plant-diseases-classifier) - App that detects diseases in *plants* using a deep learning model.
+2.)  [Leaf Identification](https://github.com/AayushG159/Plant-Leaf-Identification) - Identification of *plants* through *plant* leaves on the basis of their shape, color and texture.
+3.) [Crop Analysis](https://github.com/openalea/eartrack) - An imaging library to detect and track future position of ears on maize *plants*
+4.) [Seedlings](https://github.com/mfsatya/PlantSeedlings-Classification) - *Plant* Seedlings Classification from kaggle competition
+5.) [Plant Stress](http://An ontology containing plant stresses; biotic and abiotic.) -  An ontology containing *plant* stresses; biotic and abiotic.
+6.) [Animal Hierarchy](https://github.com/sacul-git/hierarpy) - Package for calculating *animal* dominance hierarchies.
+7.) [Animal Identification](https://github.com/A7med01/Deep-learning-for-Animal-Identification) - Deep learning for animal identification. 
+8.) [Species](https://github.com/NomaanAhmed/BigData_AnimalSpeciesAnalysis) - Big Data analysis of different species of *animals*
+9.) [Animal Vocalisations](https://github.com/timsainb/AVGN) - A generative network for animal vocalizations
+10.) [Evolutionary](https://github.com/hardmaru/estool) - Evolution Strategies Tool
+11.) [Glaciers](https://github.com/OGGM/oggm-edu) - Educational material about glaciers.
 
 
 <a name="construction"></a>
@@ -396,46 +416,46 @@ Also, a listed repository should be deprecated if:
 <a name="construction-con"></a>
 **Construction**
 
-- [DL Architecture](https://github.com/carolineh101/deep-learning-architecture) - Deep learning classifier and image generator for building architecture.
-- [Construction Materials](https://github.com/damontallen/Construction-materials) - A course on construction materials. 
-- [Bad Actor Risk Model](https://github.com/dariusmehri/Social-Network-Bad-Actor-Risk-Tool) - Risk model to improve construction related building safety
-- [Inspectors](https://github.com/dariusmehri/Tracking-Inspectors-with-Euclidean-Distance-Algorithm) - Determine the assigned inspections. 
-- [Corrupt Social Interactions](https://github.com/dariusmehri/Social-Network-Analysis-to-Expose-Corruption) - Uncover potential corrupt social interactions between an industry member and the staff at the DOB
-- [Risk Construction](https://github.com/dariusmehri/Risk-Screening-Tool-to-Predict-Accidents-at-Construction-Sites) - Identify high risk construction. 
-- [Facade Risk](https://github.com/dariusmehri/Algorithm-for-Finding-Buildings-with-Facade-Risk) - A risk model to predict unsafe facades.
-- [Staff Levels](https://github.com/dariusmehri/Predicting-Staff-Levels-for-Front-line-Workers) - Predicting staff levels for front line workers.  
-- [Injuries](https://github.com/dariusmehri/Topic-Modeling-and-Analysis-of-Building-Related-Injuries) - Building related injuries topic modelling. 
-- [Building Violations](https://github.com/dariusmehri/Predictive-Analysis-of-Building-Violations) - Predictive analysis of building violations. 
-- [Productivity](https://github.com/dariusmehri/Inspection-Productivity-Analysis-and-Visualization-with-Tableau) - Productivity analysis and inspection with Tableau. 
+1.) [DL Architecture](https://github.com/carolineh101/deep-learning-architecture) - Deep learning classifier and image generator for building architecture.
+2.) [Construction Materials](https://github.com/damontallen/Construction-materials) - A course on construction materials. 
+3.) [Bad Actor Risk Model](https://github.com/dariusmehri/Social-Network-Bad-Actor-Risk-Tool) - Risk model to improve construction related building safety
+4.) [Inspectors](https://github.com/dariusmehri/Tracking-Inspectors-with-Euclidean-Distance-Algorithm) - Determine the assigned inspections. 
+5.) [Corrupt Social Interactions](https://github.com/dariusmehri/Social-Network-Analysis-to-Expose-Corruption) - Uncover potential corrupt social interactions between an industry member and the staff at the DOB
+6.) [Risk Construction](https://github.com/dariusmehri/Risk-Screening-Tool-to-Predict-Accidents-at-Construction-Sites) - Identify high risk construction. 
+7.) [Facade Risk](https://github.com/dariusmehri/Algorithm-for-Finding-Buildings-with-Facade-Risk) - A risk model to predict unsafe facades.
+8.) [Staff Levels](https://github.com/dariusmehri/Predicting-Staff-Levels-for-Front-line-Workers) - Predicting staff levels for front line workers.  
+9.) [Injuries](https://github.com/dariusmehri/Topic-Modeling-and-Analysis-of-Building-Related-Injuries) - Building related injuries topic modelling. 
+10.) [Building Violations](https://github.com/dariusmehri/Predictive-Analysis-of-Building-Violations) - Predictive analysis of building violations. 
+11.) [Productivity](https://github.com/dariusmehri/Inspection-Productivity-Analysis-and-Visualization-with-Tableau) - Productivity analysis and inspection with Tableau. 
 
 <a name="construction-eng"></a>
 **Engineering:**
 
-- [Structural Analysis](https://github.com/ritchie46/anaStruct) - 2D Structural Analysis in Python. 
-- [Structural Engineering](https://github.com/buddyd16/Structural-Engineering) - Structural engineering modules.
-- [Nusa](https://github.com/JorgeDeLosSantos/nusa) - Structural analysis using the finite element method.
-- [StructPy](https://github.com/BrianChevalier/StructPy) - Structural Analysis Library for Python based on the direct stiffness method
-- [Aileron](https://github.com/albiboni/AileronSimulation) - Structural analysis of the aileron of a Boeing 737
-- [Vibration](https://github.com/vibrationtoolbox/vibration_toolbox) - Educational vibration programs. 
-- [Civil](https://github.com/ebrahimraeyat/Civil) - Collection of civil engineering tools in FreeCAD
-- [GEstimator](https://github.com/manuvarkey/GEstimator) - Simple civil estimation software
-- [Fatpack](https://github.com/Gunnstein/fatpack) - Functions and classes for fatigue analysis of data series.
-- [Pysteel](https://github.com/yajnab/pySteel) - Automated design of different steel structure 
-- [Structural Uncertainty](https://github.com/davidsteinar/structural-uncertainty) - Quantifying structural uncertainty with deep learning.
-- [Pymech](https://github.com/jellespijker/pymech) - A Python module for mechanical engineers
-- [Aerospace Engineering](https://github.com/AlvaroMenduina/Jupyter_Notebooks/tree/master/Introduction_Aerospace_Engineering) - Astrodynamics and Statistics
-- [Interactive Quantum Chemistry](https://github.com/psi4/psi4numpy) - Combining Psi4 and Numpy for education and development.
-- [Chemical and Process Engineering](https://github.com/CAChemE/learn) - Various resources.
-- [PyTherm](https://github.com/iurisegtovich/PyTherm-applied-thermodynamics) - Applied Thermodynamics 
-- [Aerogami](https://github.com/kshitizkhanal7/Aerogami) - Aerodynamics using planes.
-- [Electro geophysics](https://github.com/geoscixyz/em-apps) - Interactive applications for electromagnetics in geophysics
-- [Graph Signal](https://github.com/mdeff/pygsp_tutorial_graphsip) - Graph signal processing tutorial.
-- [Mechanical Vibrations](https://github.com/DocVaughan/MCHE485---Mechanical-Vibrations) -  Mechanical Vibrations at the Univsersity of Louisiana.
-- [Process Dynamics](https://github.com/OpenChemE/CHBE356) - Process Dynamics and Control
-- [Battery Life Cycle](https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation) - Data driven prediction of batter life cycle. 
-- [Wind Energy](https://github.com/DTUWindEnergy/Python4WindEnergy) - Python for wind energy
-- [Energy Use](https://github.com/openeemeter/eemeter/blob/master/scripts/tutorial.ipynb) - Standard methods for calculating normalized metered energy consumption
-- [Nuclear Radiation](https://github.com/HitarthiShah/Radiation-Data-Analysis) - How people are affected by radiations emitted by nuclear power plants
+1.) [Structural Analysis](https://github.com/ritchie46/anaStruct) - 2D Structural Analysis in Python. 
+2.) [Structural Engineering](https://github.com/buddyd16/Structural-Engineering) - Structural engineering modules.
+3.) [Nusa](https://github.com/JorgeDeLosSantos/nusa) - Structural analysis using the finite element method.
+4.) [StructPy](https://github.com/BrianChevalier/StructPy) - Structural Analysis Library for Python based on the direct stiffness method
+5.) [Aileron](https://github.com/albiboni/AileronSimulation) - Structural analysis of the aileron of a Boeing 737
+6.) [Vibration](https://github.com/vibrationtoolbox/vibration_toolbox) - Educational vibration programs. 
+7.) [Civil](https://github.com/ebrahimraeyat/Civil) - Collection of civil engineering tools in FreeCAD
+8.) [GEstimator](https://github.com/manuvarkey/GEstimator) - Simple civil estimation software
+9.) [Fatpack](https://github.com/Gunnstein/fatpack) - Functions and classes for fatigue analysis of data series.
+10.) [Pysteel](https://github.com/yajnab/pySteel) - Automated design of different steel structure 
+11.) [Structural Uncertainty](https://github.com/davidsteinar/structural-uncertainty) - Quantifying structural uncertainty with deep learning.
+12.) [Pymech](https://github.com/jellespijker/pymech) - A Python module for mechanical engineers
+13.) [Aerospace Engineering](https://github.com/AlvaroMenduina/Jupyter_Notebooks/tree/master/Introduction_Aerospace_Engineering) - Astrodynamics and Statistics
+14.) [Interactive Quantum Chemistry](https://github.com/psi4/psi4numpy) - Combining Psi4 and Numpy for education and development.
+15.) [Chemical and Process Engineering](https://github.com/CAChemE/learn) - Various resources.
+16.) [PyTherm](https://github.com/iurisegtovich/PyTherm-applied-thermodynamics) - Applied Thermodynamics 
+17.) [Aerogami](https://github.com/kshitizkhanal7/Aerogami) - Aerodynamics using planes.
+18.) [Electro geophysics](https://github.com/geoscixyz/em-apps) - Interactive applications for electromagnetics in geophysics
+19.) [Graph Signal](https://github.com/mdeff/pygsp_tutorial_graphsip) - Graph signal processing tutorial.
+20.) [Mechanical Vibrations](https://github.com/DocVaughan/MCHE485---Mechanical-Vibrations) -  Mechanical Vibrations at the Univsersity of Louisiana.
+21.) [Process Dynamics](https://github.com/OpenChemE/CHBE356) - Process Dynamics and Control
+22.) [Battery Life Cycle](https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation) - Data driven prediction of batter life cycle. 
+23.) [Wind Energy](https://github.com/DTUWindEnergy/Python4WindEnergy) - Python for wind energy
+24.) [Energy Use](https://github.com/openeemeter/eemeter/blob/master/scripts/tutorial.ipynb) - Standard methods for calculating normalized metered energy consumption
+25.) [Nuclear Radiation](https://github.com/HitarthiShah/Radiation-Data-Analysis) - How people are affected by radiations emitted by nuclear power plants
 
 
 <a name="construction-mat"></a>
