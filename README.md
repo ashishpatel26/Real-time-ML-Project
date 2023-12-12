@@ -373,6 +373,7 @@ Also, a listed repository should be deprecated if:
 - [Autoencoding Expression](https://github.com/greenelab/adage) - Extracting relevant patterns from large sets of gene expression data
 - [Gene Expression Inference](https://github.com/uci-cbcl/D-GEX) - Predict the expression of specified target genes from a panel of about 1,000 pre-selected “landmark genes”. 
 - [Plant Genomics](https://github.com/widdowquinn/Teaching-EMBL-Plant-Path-Genomics) - Presentation and example material for *Plant* and Pathogen Genomics
+- [Implement a gene family analysis pipeline](https://medium.com/@anoopjohny2000/implement-a-gene-family-analysis-pipeline-f45a3e61497c) - Explore the implementation of a gene analysis pipeline using Python, delving into bioinformatics and genomics to demonstrate the processing and analysis of genetic data.
 
 <a name="biotech-life"></a>
 **Life-sciences**
@@ -512,6 +513,13 @@ Also, a listed repository should be deprecated if:
 - [Budget NLP 3](https://github.com/sushant2811/SchoolBudgetData/blob/master/SchoolBudgetData.ipynb) - Budget classification. 
 - [Survey Analysis](https://github.com/kaumaron/Data_Science/tree/master/Education) - Education survey analysis. 
 
+**Advanced Applications**
+- [Mastering Data Science and Machine Learning: A Comprehensive 5-Month Bootcamp Journey](https://medium.com/@anoopjohny2000/mastering-data-science-and-machine-learning-a-comprehensive-5-month-bootcamp-journey-d72e6f806581) - Embark on a comprehensive 5-month bootcamp journey covering essential topics in data science and machine learning for mastery in the field.
+- [Unleash the Power of LLAMA2: Clone Internet Personalities with YouTube Data and Language Models](https://medium.com/@anoopjohny2000/building-sadgurullama2-integrating-youtube-data-and-language-models-for-insightful-queries-using-5de5ad558f40) - Dive into LLAMA2 to clone internet personalities using YouTube data and language models, exploring the potential of content generation tools.
+- [Building a Question Answering Web Application with Flask and Transformers](https://medium.com/@anoopjohny2000/building-an-interactive-question-answering-app-with-streamlit-transformers-and-langchain-13b338cfe534) - Develop a Flask web app for question-answering using Transformers, showcasing the integration of advanced language models in educational applications. 
+- [Building a Code Generation App with OpenAI and Streamlit](https://medium.com/@anoopjohny2000/building-a-code-generation-app-with-openai-and-streamlit-134acbece44b) - Construct a Streamlit app that generates code snippets using OpenAI, showcasing the fusion of language models and interactive interfaces for developers.
+- [Exploring Sentiment Analysis in Text Data using Python and Natural Language Processing](https://medium.com/@anoopjohny2000/exploring-sentiment-analysis-in-text-data-using-python-and-natural-language-processing-96fbce289661) - Embark on a journey of sentiment analysis as we delve into the fascinating world of Natural Language Processing (NLP) using Python. In this tutorial, we navigate the intricate landscape of text data, unraveling the sentiments embedded within.
+
 <a name="emergency"></a>
 ## Emergency & Police
 
@@ -623,7 +631,7 @@ Also, a listed repository should be deprecated if:
 - [Prescription Compliance](https://github.com/rjhere/Prescription-compliance-prediction) - An analysis of prescription and medical compliance 
 - [Respiratory Disease](https://github.com/alistairwallace97/olympian-biotech) -  Tracking respiratory diseases in Olympic athletes
 - [Bubonic Plague](https://github.com/callysto/curriculum-notebooks/blob/master/Humanities/BubonicPlague/bubonic-plague-and-SIR-model.ipynb) - Bubonic plague and SIR model. 
-
+- [Make your own PubMed search application](https://medium.com/@anoopjohny2000/make-your-own-pubmed-search-application-ac4028e6698a) - Create a PubMed search application using Python, providing users with a tool to explore and retrieve medical research articles efficiently.
 
 
 <a name="legal"></a>
@@ -754,7 +762,7 @@ Also, a listed repository should be deprecated if:
 - [Physics ML and Stats](https://github.com/dkirkby/MachineLearningStatistics) - Machine learning and statistics for physicists
 - [High Energy](https://github.com/arogozhnikov/hep_ml) - Machine Learning for High Energy *Physics*.
 - [High Energy GAN](https://github.com/hep-lbdl/CaloGAN) - Generative Adversarial Networks for High Energy *Physics.* 
-- [Neural Networks](https://github.com/GiggleLiu/marburg) - P*hysics* meets neural networks
+- [Neural Networks](https://github.com/GiggleLiu/marburg) - *Physics* meets neural networks
 
 
 
@@ -821,6 +829,7 @@ Also, a listed repository should be deprecated if:
 - [Political Identity](https://github.com/pgromano/Political-Identity-Analysis) - Multi-axial *political* model.
 - [YT Politics](https://github.com/kmunger/YT_descriptive) -  Mapping *Politics* on YouTube
 - [Political Ideology](https://github.com/albertwebson/Political-Vector-Projector) - Unsupervised learning of *political* ideology by word vector projections
+- [Analyzing Presidential Gaffes with Python : Unveiling the Quirky Side of Leadership](https://medium.com/@anoopjohny2000/unveiling-the-quirky-side-of-leadership-analyzing-presidential-gaffes-with-python-ce60c8ba99f5) - Uncover the quirky side of leadership by analyzing presidential gaffes with Python, presenting insights into speech patterns and rhetorical nuances.
 
 
 <a name="realestate"></a>
@@ -837,6 +846,7 @@ Also, a listed repository should be deprecated if:
 - [House Price Portland](https://github.com/girishkuniyal/Predict-housing-prices-in-Portland) - Predict housing prices in Portland. 
 - [Zillow Prediction](https://github.com/eswar3/Zillow-prediction-models) - Zillow valuation prediction as performed on Kaggle.
 - [Real Estate](https://github.com/denadai2/real-estate-neighborhood-prediction) - Predicting real estate prices from the urban environment.
+- [Web Scraping Real Estate Data with Selenium and BeautifulSoup: A Practical Guide](https://medium.com/@anoopjohny2000/web-scraping-real-estate-data-with-selenium-and-beautifulsoup-a-practical-guide-f01c0ad6a079) - Learn how to utilize Selenium and BeautifulSoup to scrape real estate data from websites, providing practical insights for data analysis in the real estate domain.
 
 <a name="realestate-rent"></a>
 **Rental & Leasing**
@@ -895,6 +905,7 @@ Also, a listed repository should be deprecated if:
 - [Sewage Overflow](https://github.com/jesseanddd/sewer-overflow) -  Insights into the sanitary sewage overflow (SSO).
 - [Water Accounting](https://github.com/johnpfay/USWaterAccounting) - Assembles water budget data for the US from existing data source
 - [Air Quality Prediction](https://github.com/txytju/air-quality-prediction) - Predict air quality(aq) in Beijing and London in the next 48 hours.
+- [Analyzing Air Quality in New York City: Insights from Recent Data and the Impact of Canadian Wildfires](https://medium.com/@anoopjohny2000/analyzing-air-quality-in-new-york-city-insights-from-recent-data-and-the-impact-of-canadian-f24e1e20b362) - Analyze air quality in New York City using recent data and explore the impact of Canadian wildfires, providing insights into environmental data analysis. 
 
 <a name="utilities-trans"></a>
 **Transportation**
